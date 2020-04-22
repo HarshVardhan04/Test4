@@ -1,0 +1,254 @@
+/* #container {
+    width: fit-content;
+} */
+
+#text {
+    padding-bottom: 53px;
+}
+
+#text h1 {
+    color: #FF9800;
+    text-align: center;
+    margin-top: 80px;
+    font-family: sans-serif;
+}
+#text p {
+    text-align: center;    
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    font-family: sans-serif;
+    color: #A9A9A9;
+}
+
+#card {
+    text-align: center;
+    background-color: brown;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+ .card {
+    /* width: 18rem; */
+    border-radius: 15px;
+    box-shadow: 0px 0px 18px 6px black;
+    overflow: hidden;
+}
+
+/* .column {
+    padding: 24px;
+    align-items: center;
+}
+
+.row {
+    margin: 0 auto;
+} */
+
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  /* .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  } */
+  
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+.carousel {
+    border: solid 3px white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#carousal {
+    padding: 10px;
+    background-color: black;
+}
+
+.navbar {
+    border: solid 2px #343A40;
+    border-radius: 7px
+}
+
+#nav-bar {
+    background-color: black;
+}
+
+.most {
+    /* text-align: center; */
+    font-size: 40px;
+    color: white;
+}
+
+.play-on-this {
+    font-size: 35px;
+    font-weight: 500;
+    text-shadow: 2px 3px 1px grey;
+    padding-top: 40px;
+    /* padding-left: 530px; */
+    text-align: center;
+}
+
+.video {
+    overflow: hidden;
+    border-radius: 30px;
+    border: solid 3px black;
+    background-color: white;
+    width: 80%;
+}
+
+#emulator {
+    /* border: solid 4px black; */
+    /* margin: 2px; */
+    /* border-radius: 20px; */
+    background-color: antiquewhite;
+    margin-bottom: 45px;
+    text-align: center;
+}
+
+.emulator-text {
+    font-size: 30px;
+    text-align: center;
+    font-family: none;
+}
+
+#last {
+    background-color: black;
+    padding-bottom: 35px;
+    text-align: center;
+}
+
+.follow-us {
+    font-size: 45px;
+    color: white;
+    padding-bottom: 52px;
+    font-family: none;
+    padding-top: 35px;
+}
+.insta {
+    height: 45px;
+    margin-bottom: 49px;
+}
+
+.fb {
+    height: 45px;
+    margin-bottom: 49px;
+    margin-left: 50px;
+}
+
+.yt {    height: 96px;
+    margin-bottom: 49px;
+    margin-left: 20px;
+}    
+
+.tr {
+    height: 45px;
+    margin-bottom: 49px;
+    margin-left: 17px;
+}
+
+
+.last-text-2 {
+    color: white;
+}
+
+.last-text-3 {
+    color: white;
+    font-size: 45px;
+    font-family: none;
+    padding-top: 13px;
+}
+
+.copy-text {
+    color: #FF9800;
+    margin-top: 60px;
+}
+
+.last-text-4 {
+    color: #2DAAE1;
+    margin-top: -64px;
+}
+
+#scroll {
+    text-align: center;
+}
+
+/* @media (max-width: 480px)
+{
+    #container {
+        width: fit-content;
+    }
+}
+
+@media (max-width: 768px)
+{
+    #container {
+        width: fit-content;
+    }
+}
+
+@media (max-width: 1279px)
+{
+    #container {
+        width: fit-content;
+    }
+}
+
+@media (min-width: 1280px)
+{
+    #container {
+        width: fit-content;
+    }
+} */
+/* 
+@media only screen and (min-width: 480px)
+{
+    #nav-bar {
+        width: 280%;
+    }
+} */
+
+
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
